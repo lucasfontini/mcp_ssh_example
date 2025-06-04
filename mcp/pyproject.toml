@@ -1,0 +1,14 @@
+[project]
+name = "ssh-mcp"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "dotenv>=0.9.9",
+    "fastapi==0.115.0",
+    "fastmcp>=2.3.3",
+    "mcp[cli]>=1.6.0",
+    "netmiko>=4.5.0",
+    "uvicorn==0.30.6",
+]
